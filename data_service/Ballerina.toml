@@ -1,0 +1,14 @@
+[package]
+org = "munsif"
+name = "data_service"
+version = "0.1.0"
+distribution = "2201.1.1"
+
+[build-options]
+observabilityIncluded = true
+
+[[platform.java11.dependency]]
+path = "./drivers/postgresql-42.5.0.jar"
+groupId = "org.postgresql"
+artifactId = "postgresql"
+version = "42.5.0"
